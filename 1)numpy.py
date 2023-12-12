@@ -59,9 +59,9 @@ print("NaN Indices:", nan_indices)
 import numpy as np
 
 # Create random arrays
-Array1 = np.random.rand(5)
-Array2 = np.random.rand(5)
-Array3 = np.random.rand(5)
+Array1 = np.random.randint(0, 10, size=(5))
+Array2 = np.random.randint(0, 10, size=(5))
+Array3 = np.random.randint(0, 10, size=(5))
 
 # Subtract Array2 from Array3 and store in Array4
 Array4 = Array3 - Array2
